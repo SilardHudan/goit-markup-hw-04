@@ -136,6 +136,10 @@ margin-right: 50px;
     color: var(--header-color-first);
     margin-left: 50px;
 }
+.contacts-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
 .header-tel:hover {
     color: var(--header-color-second)
 }
@@ -158,7 +162,20 @@ margin-right: 50px;
 .first-main-section {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: #2F303A;;
+    width: 1600px;
+    height: 600px;
+    margin:0 auto;
+    background-size: cover;
+    max-width: 1600px;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image:linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)), 
+    url(../img/herobg.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    
+
 }
 .first-main-section .container{
     text-align: center;
@@ -179,7 +196,7 @@ margin-right: 50px;
 .first-main-button:hover {
     background-color: #188CE8;
 }
-.second-main-section{
+.second-main-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -188,7 +205,19 @@ margin-right: 50px;
     display: flex;
     justify-content: space-between;
 }
- 
+.second-main-icon{
+
+}
+.second-main-item{
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 .second-main-list-title {
     font-weight: 700;
     font-size: 14px;
@@ -279,7 +308,70 @@ padding-bottom: 94px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--main-title-color-second)
+    color: var(--main-title-color-second);
+    margin-bottom: 16px;
+}
+.fourth-main-soc-list-link{
+    width: 44px;
+    height: 44px;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+}
+.fourth-main-soc-icon{
+    fill: currentColor;
+}
+
+.fourth-main-soc-list-link:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.fourth-main-soc-list-link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.fourth-main-soc-list{
+    display: flex;
+    justify-content: center;
+}
+.fourth-main-soc-list-item + .fourth-main-soc-list-item{
+    margin-left: 10px;
+}
+.fifth-main-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.fifth-main-title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+.fifth-main-list{
+    display: flex;
+}
+.fifth-main-list-item{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #0e0e0f;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-main-list-item +.fifth-main-list-item{
+    margin-left: 30px;
+}
+.fifth-main-list-link{
+    
+    
 }
 /* ---------------------------footer------------------------------- */
 .footer {
@@ -304,6 +396,17 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color:var(--header-color-second)
 }
+
+.footer-logo-soc-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    }
+
 .footer-address {
     font-style: normal;
     font-size: 14px;
@@ -312,6 +415,54 @@ padding-bottom: 94px;
     color:var(--title-color-second);
     margin-top: 20px;
     margin-bottom: 9px;
+}
+.fotter-address-soclist{
+    margin-left: 70px;
+    
+}
+.fottet-block{
+    display: flex;
+}
+ 
+
+.fotter-soc-list-link {
+    width: 44px;
+    height: 44px;
+    background-color:rgba(255, 255, 255, 0.1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fotter-soc-icon {
+    fill: currentColor;
+}
+
+.fotter-soc-list-link:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.fotter-soc-list-link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.fotter-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.fotter-soc-list-item +.fotter-soc-list-item {
+    margin-left: 10px;
 }
 
 .footer-mail-link {
