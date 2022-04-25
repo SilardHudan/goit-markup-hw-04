@@ -45,7 +45,6 @@ button {
     margin: 0 auto;
 }
 
-
 /* ---------------------------header------------------------------- */
 .header {
     background: #FFFFFF;
@@ -78,6 +77,7 @@ button {
 
 .second-header-list {
     display: flex;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -103,7 +103,7 @@ button {
 }
 
 .header-item:not(:last-child) {
-margin-right: 50px;
+    margin-right: 50px;
 }
 
 .header-link-second:hover {
@@ -139,6 +139,8 @@ margin-right: 50px;
 .contacts-icon{
     fill: currentColor;
     margin-right: 10px;
+    align-items: center;
+    
 }
 .header-tel:hover {
     color: var(--header-color-second)
@@ -425,6 +427,7 @@ padding-bottom: 94px;
 }
 .fotter-address-soclist{
     margin-left: 70px;
+    margin-top: 12px;
     
 }
 .fottet-block{
